@@ -14,8 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
-admin.site.site_header = "Team88 Adminstraton's Page"
+from django.urls import path, include
+admin.site.site_header = "Team82 Adminstraton's Page"
 admin.site.site_title = "Bidding Bro's Admin Portal"
 admin.site.index_title = "Welcome to Team88 Admins Portal"
 
